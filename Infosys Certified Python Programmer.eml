@@ -1,0 +1,244 @@
+Received: from SI2PR02MB5860.apcprd02.prod.outlook.com (2603:1096:4:1bf::5) by
+ TY0PR02MB5947.apcprd02.prod.outlook.com with HTTPS; Fri, 15 Mar 2024 12:44:14
+ +0000
+Received: from SG2PR01CA0121.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:40::25) by SI2PR02MB5860.apcprd02.prod.outlook.com
+ (2603:1096:4:1bf::5) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7386.18; Fri, 15 Mar
+ 2024 12:44:12 +0000
+Received: from SG2PEPF000B66CF.apcprd03.prod.outlook.com
+ (2603:1096:4:40:cafe::58) by SG2PR01CA0121.outlook.office365.com
+ (2603:1096:4:40::25) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7386.20 via Frontend
+ Transport; Fri, 15 Mar 2024 12:44:12 +0000
+Authentication-Results: spf=pass (sender IP is 122.98.14.118)
+ smtp.mailfrom=infosys.com; dkim=none (message not signed)
+ header.d=none;dmarc=pass action=none header.from=infosys.com;
+Received-SPF: Pass (protection.outlook.com: domain of infosys.com designates
+ 122.98.14.118 as permitted sender) receiver=protection.outlook.com;
+ client-ip=122.98.14.118; helo=infosys.com; pr=C
+Received: from infosys.com (122.98.14.118) by
+ SG2PEPF000B66CF.mail.protection.outlook.com (10.167.240.23) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7386.12 via Frontend Transport; Fri, 15 Mar 2024 12:44:12 +0000
+Received: from BLREXOHYB08.ad.infosys.com (10.68.8.69) by edge.infosys.com
+ (122.98.14.118) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.1544.4; Fri, 15 Mar
+ 2024 18:14:08 +0530
+Received: from BLRKECHUB93.ad.infosys.com (10.66.236.43) by
+ BLREXOHYB08.ad.infosys.com (10.68.8.69) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.2.1544.4; Fri, 15 Mar 2024 18:13:56 +0530
+Received: from BLRKECHUB94.ad.infosys.com (10.66.236.44) by
+ BLRKECHUB93.ad.infosys.com (10.66.236.43) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.2.1544.4; Fri, 15 Mar 2024 18:13:56 +0530
+Received: from BLRSMTPVHS04VM01.AD.INFOSYS.COM (10.66.236.182) by
+ BLRKECHUB94.ad.infosys.com (10.66.236.44) with Microsoft SMTP Server id
+ 15.2.1544.4 via Frontend Transport; Fri, 15 Mar 2024 18:13:56 +0530
+Received: from BLRSMTPVHS04VM01.AD.INFOSYS.COM (unknown [127.0.0.1])
+	by IMSVA (Postfix) with ESMTP id 7280B38065
+	for <ANKIT.SINHA11@INFOSYS.COM>; Fri, 15 Mar 2024 18:13:56 +0530 (IST)
+Received: from BLRSMTPVHS04VM01.AD.INFOSYS.COM (unknown [127.0.0.1])
+	by IMSVA (Postfix) with ESMTP id 63FF038057
+	for <ANKIT.SINHA11@INFOSYS.COM>; Fri, 15 Mar 2024 18:13:56 +0530 (IST)
+Received: from mailerjava-78f7df5646-5grxr (unknown [10.66.236.23])
+	by BLRSMTPVHS04VM01.AD.INFOSYS.COM (Postfix) with ESMTP
+	for <ANKIT.SINHA11@INFOSYS.COM>; Fri, 15 Mar 2024 18:13:56 +0530 (IST)
+From: <messenger@infosys.com>
+To: <ANKIT.SINHA11@INFOSYS.COM>
+Message-ID: <1475738368.715648.1710506632683@mailerjava-78f7df5646-5grxr>
+Subject: =?UTF-8?Q?FYI_=E2=80=93_Learning_Hub_=E2=80=93_Cer?=
+ =?UTF-8?Q?tification_Result_upload?=
+Content-Type: multipart/mixed;
+	boundary="----=_Part_715646_15288484.1710506632682"
+Date: Fri, 15 Mar 2024 18:13:56 +0530
+Return-Path: Messenger@infosys.com
+X-OrganizationHeadersPreserved: BLRKECHUB93.ad.infosys.com
+X-MS-Exchange-Organization-ExpirationStartTime: 15 Mar 2024 12:44:12.5337
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ fc3a5e81-0919-44fd-a7bf-08dc44ed9dcf
+X-EOPAttributedMessage: 0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: BLRKECHUB94.ad.infosys.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+X-CrossPremisesHeadersPromoted: SG2PEPF000B66CF.apcprd03.prod.outlook.com
+X-CrossPremisesHeadersFiltered: SG2PEPF000B66CF.apcprd03.prod.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ SG2PEPF000B66CF:EE_|SI2PR02MB5860:EE_|TY0PR02MB5947:EE_
+X-OriginatorOrg: infosys.com
+X-MS-Office365-Filtering-Correlation-Id: fc3a5e81-0919-44fd-a7bf-08dc44ed9dcf
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-BypassFocusedInbox: True
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:122.98.14.118;CTRY:IN;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:infosys.com;PTR:InfoDomainNonexistent;CAT:NONE;SFS:;DIR:INT;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 15 Mar 2024 12:44:12.4087
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: fc3a5e81-0919-44fd-a7bf-08dc44ed9dcf
+X-MS-Exchange-CrossTenant-Id: 63ce7d59-2f3e-42cd-a8cc-be764cff5eb6
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=63ce7d59-2f3e-42cd-a8cc-be764cff5eb6;Ip=[122.98.14.118];Helo=[infosys.com]
+X-MS-Exchange-CrossTenant-AuthSource: BLRKECHUB94.ad.infosys.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SI2PR02MB5860
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.6740508
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7386.020
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+	9Bemm3YABzGNJgSET2TIcK0KXE9nmweXQwwoEJwvRyFbwzlRRzz+R6l0A0OZ6ksPM/RadDgfG/zjuByx/7dafNQf2UNC3YCTIsOViTr+thl7ox6xzJmkzGu82ZZ+W3ydresQw36xDEK1zOLsrxgJaF01xMuj+naeiMS/aokVeX2Xz5rsPDxMve2+Yx7eyyAj0Ep/eNbiDzYBNazqCZZXIfR8sXgm2F7L8jvcvFEAzFdvIq30tZmX0dQzVme48ys+FF9h2AQ4g9AscIY7wegtqWMgabslLEgAirGmVHhPq81xEoxtceIyMMaKn9PUu00pbxHu4+XJ3ORumLnAfY1Ydz6+eHIRQNvGIJgH/G8ulQiKTORDSaWfaPaJS5IHTcWB2I+4nw8MN107UiAo0KW4Fcts7fOK422tIA3e2Q2OZiR+Baf2FVYwq1uqwnbwviduOvRPqBi6Fmm0CuXLMO9xLMtmg1yJ6v4wJai+bWgVbWpZOK2JURXlDiawznHe+UCxr8Z1WXq9VaocnLN+I0EpEkVUp8fG/Lnb4k4ysphAbzYjvqodCx4eJnTY491mcUDSsqYNkZx8nqI/zOc59jHjGMxjDWKe8/wM5hrpnzBo0k1mVyIgtTScJR5YI/RWoE6VXgcWDT9Jp4o5Hi9vRI0SYAWVvqU8IM1j2LBKgcjVzpp3dbfygcoEsXGLpubLV/vuKFnUhhXYY1u92htWyf8XD12ccyk5i8HepOLVE3X5nCA/B46UPGEege/MxpnyPoNc4Y4n7eKZcq2kpygIO8vdKuB1zkFs5pamI+0T6K0NZDmX40poPAo/bmBRtk0nWEpH
+MIME-Version: 1.0
+
+------=_Part_715646_15288484.1710506632682
+Content-Type: multipart/related;
+	boundary="----=_Part_715647_1364817080.1710506632682"
+
+------=_Part_715647_1364817080.1710506632682
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC -//W3C//DTD XHTML 1.0 Transitional//EN http://www.w3.=
+org/TR/xhtml1/DTD/xhtml1-transitional.dtd><html xmlns=3D"http://www.w3.org/=
+1999/xhtml"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle>FYI ? Learning Hub ? Certification Result upload</title>  </head>  <bo=
+dy style=3D"background: #fff; color: #282828;">      <table border=3D"0" al=
+ign=3D"center" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Ar=
+ial; font-size: 14px;width: 600px;border: 1px solid #6d6e71;">          <tr=
+>              <td style=3D"width: 600px; height: 40px;">                  =
+<img src=3D"https://cdnstoretst.infosysapps.com/mailergraphtst/fyi_green_ba=
+nner.png" width=3D"600px" height=3D"123px" border=3D"0" alt=3D"Information"=
+ Systems=3D"">              </td>          </tr><style>p.MsoNormal{margin-t=
+op:0;margin-right:0;margin-bottom:8pt;margin-left:0;line-height:107%;font-s=
+ize:11pt;font-family:Calibri,sans-serif}</style><body #282828;=3D"" #fff;=
+=3D"" color:=3D""><table cellpadding=3D"0" cellspacing=3D"0" solid=3D"" #6d=
+6e71;=3D"" 14px;width:=3D"" 1px=3D"" 600px;=3D"" align=3D"center" arial;=3D=
+"" border=3D"0" border:=3D"" font-size:=3D""><tr valign=3D"top" align=3D"le=
+ft"><td 40px;=3D"" 600px;=3D"" height:=3D""><tr valign=3D"top"><td style=3D=
+"padding:10px">Hi Ankit Sinha,<br><br><p class=3D"MsoNormal"><span style=3D=
+"font-size:11pt;line-height:107%" calibri;mso-fareast-theme-font:minor-lati=
+n;mso-hansi-theme-font:minor-latin;=3D"" font-family:calibri,sans-serif;mso=
+-ascii-theme-font:minor-latin;mso-fareast-font-family:=3D"" mso-ansi-langua=
+ge:en-us;mso-fareast-language:en-us;mso-bidi-language:ar-sa=3D"" mso-bidi-f=
+ont-family:times=3D"" new=3D"" roman;mso-bidi-theme-font:minor-bidi;=3D"">T=
+he result has been updated for the below details:</span>.<o:p></o:p></p><br=
+><p class=3D"MsoNormal"><b style=3D"mso-bidi-font-weight:normal">Certificat=
+ion Title:</b><o:p>Infosys Certified Python Programmer</o:p><p class=3D"Mso=
+Normal"><b style=3D"mso-bidi-font-weight:normal">Attendance:</b><o:p>Presen=
+t</o:p><p class=3D"MsoNormal"><b style=3D"mso-bidi-font-weight:normal">Mark=
+s/Result:</b><o:p>96</o:p><p class=3D"MsoNormal"><b style=3D"mso-bidi-font-=
+weight:normal">Exam date:</b><o:p></o:p>14 Mar 2024<p class=3D"MsoNormal"><=
+b style=3D"mso-bidi-font-weight:normal">Pass Percentage:</b><o:p></o:p>70.0=
+0<p class=3D"MsoNormal"><b style=3D"mso-bidi-font-weight:normal">Qualificat=
+ion Status:</b><o:p></o:p>Qualified</p><br><table cellpadding=3D"0" cellspa=
+cing=3D"0" solid=3D"" #cce5f3;=3D"" style=3D"margin-top:5px;padding:8px;bor=
+der:1px"><tr><td><a #007fc6;=3D"" href=3D"http://iscls4apps/ITMS" none;=3D"=
+" text-decoration:=3D"" title=3D"Intranet">Intranet</a> <span style=3D"colo=
+r:#cdcdcd;padding:0" 0=3D"" 10px=3D"" 10px;=3D"">|</span><td><a #007fc6;=3D=
+"" href=3D"https://apc01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Firemote.infosysapps.com%2F&amp;data=3D05%7C02%7Cankit.sinha11%40infosys=
+.com%7Cfc3a5e81091944fda7bf08dc44ed9dcf%7C63ce7d592f3e42cda8ccbe764cff5eb6%=
+7C0%7C0%7C638461034541656628%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLC=
+JQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=3Dtmpdb=
+qyzxWagkk5mvQAK3jRUOLI3zxMUSmHb0fEfiWE%3D&amp;reserved=3D0" originalsrc=3D"=
+https://iremote.infosysapps.com/" shash=3D"s9HkgaxaJ7qjiIXkGORJYTxLaXqvkNzR=
+ddRcVJwFxwbHJSz1qfmZpqhviSee3PtF6UwFZ0kLdiRPV1AbuCccEYdyN5k3mABr+dbCb8NI/Go=
+Vm6uldvZXN71r5O+PTLRr6BRSYoB06CGpkTUf9HFIJ7W3NEBFEC727RuQB1tupcM=3D" none;=
+=3D"" text-decoration:=3D"" title=3D"Extranet">iRemote</a></table><br>Have =
+a great day!<br><br>Regards,<br>Learning Hub Team<br><br></table><tr><td st=
+yle=3D"text-align: center;width: 80%"><b><i>Could this mail have been bette=
+r?<a href=3D"mailto:EmailProFeedback@infosys.com?subject=3DFYI%20?%20Learni=
+ng%20Hub%20?%20Certification%20Result%20upload:537cad92-82d5-4d1d-baa3-4f1a=
+79f32e98:ITMSS&amp;body=3D(Please%20do%20not%20change%20the%20subject%20and=
+%20give%20your%20feedback%20below)">Click here</a> and tell us how?</i></b>=
+</td></tr><tr><td style=3D"text-align: center;width: 80%;margin-left: 120px=
+;"><a href=3D"mailto:EmailProFeedback@infosys.com?subject=3DFYI%20?%20Learn=
+ing%20Hub%20?%20Certification%20Result%20upload:537cad92-82d5-4d1d-baa3-4f1=
+a79f32e98:ITMSS&amp;body=3D(Please%20do%20not%20change%20the%20subject%20an=
+d%20give%20your%20feedback%20below)"><img src=3D"cid:MailerComp" width=3D"5=
+0" height=3D"40"></a></td></tr><br><tr style=3D"background: #509542">
+            <td style=3D"width: 400px; height: 30px; padding-left: 10px; fo=
+nt-size: 11px; color: #fff">
+                This is an automated email. Responses to this email are not=
+ monitored.
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+------=_Part_715647_1364817080.1710506632682
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Disposition: inline
+Content-ID: <MailerComp>
+
+iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAACEUExURf////Pz88nJyaWlpYCAgFNTUzQ0NBUVFQ4ODgAAALu7u/Dw8Pz8/Pn5+YOD
+gyoqKt/f3yYmJnJycszMzExMTLq6utbW1m1tbYmJiRwcHERERHh4eF1dXaurq7GxsWZmZkFBQeTk
+5JOTk+rq6qCgoI+Pjz09PZiYmDk5OUlJSScnJwAAAOqzSysAAAAsdFJOU///////////////////
+//////////////////////////////////////8Ax9YJjAAAAAlwSFlzAAAOwwAADsMBx2+oZAAA
+C1FJREFUeF7tXc2SsjoQ/TZYKhum2Fhalst5/ze8QJ+EdGgDSNINcz27RAbonNN/AZ1/pVC3z1t1
+Ol8u5/OpejyvNeb/CNrH6RLj5/ZnrKwfPzAqxvnR4pgjo73DHBmnK447Kpq0fT1+jsxj/YIVaRzX
+xCss8DjfX7fb7VF1ETXECccfDg8YQKieDeZ7NM+QXkweDWF+qKR40jojK0wcC02gxNvbvHcbPt93
+WmyZ+Dzq0cBXyoD6+Xpvf4/maZtO6l6KLwwCNGRch425oCf5bMkxBZPpKg/TPR6Y+BC0UneMDFAP
+NzAl0QeZJyaWoHm8JoeTn15ER1DBL91ATJRPE2sU2vZ/ELP1HE4j+YES6PqxIbgtwcDmeXs8bnJP
+QdX5L0YARGKWMIdl74IJhoC7q9jA5jbG19M0gOKT6I+QMiPD1VDR5aNAg9nIB2s37RBLG9NRBYeg
+bBVr6OqRhEBsZAE8loHT5bQdRRv0JhPBqwD3FJGBOMq5kHsMrj2QHGU/LI2NTHHbPJS7foLNxgp1
+uOHzAc5/uTGYNZEpCrMozoBCRqzMYA8mSadkDAGc0KKuQRDgInVeiOEAnz26FqO/0eY5Nv6Mamzn
+cE/EX0+KAQVgyXkMEKK7zx73kYerSxxMfVA4d2FxIXUAY7h8aI5R6Cocfo+ORpZqYDf3bJqLnEEF
+dDt8wYXw6ihkUaWDFHPx5/xQrCRGmqALc2YQNEMSIOYok4+WhyrHnLhq+hkRTsMLGppjikL44Mrr
+AdMZYVghpnwEL/1QIy2tFBVoakJhB/qELQdOKi1brPLyQOuGEUGwOsEACMNoAI7m0qc5/e0q4f6k
+8JrwIsiU6ZfCF7eGwq5+MKVYyK9LVkvhESMGfMQsJGu4ppFuMNIDXZavNlnNsjiI4lmTgFjF6IU1
+7HBbC5nHoFJlcystlA6Hx0unKAq6rNQdsDlIcamFmGPKlfxVA3RZZg2SBWt/cHsYMRzQQnAotUQr
+OWQJMRGOi4Iuy/iSOPxMpWxOirkaoMtKHEoqPa4fsrgpFW0r/VCiPLFIRUGX5fmQqmw2t1KlUmaw
+yhZkDd8hoopkS8anquiMEcGqQUSTjhGB7oXtB660UFo3nBUjPUi1lPCoCCrFiEGwELGK9xZktdR/
+lYUU4dD8hAF2HYeYYtFYimkqwM2w3AwKwlCzzkIIgy2blGVVIF54un27LpaSIH/Y0TgD7/tVQBfm
+6QKOGJgNDjFimFqIGf5A1CpZyMEUMg3i3iqVYt+A00W8imtUGJLPuNsZ73qNSiF8cdG4VnSAG+SO
+CIPG0L6GQ6R2HjXFy+gAi8uzMyZHZtf4IY2j1YByuVSUAEfkNxQn/TUqpXH04gXCK0a6AD18K5RI
+HIldr1LOFg7Sz/c9EBiicqqva4KEtiqW9qqI9o7hm8FBmkDgjF2kDSegUowYphb+a9poKabpRxXg
+J/nG0ioOp8Cf24h0DJzS7TtstJAOsYmkPeAkbLMmwppYOgUOsYmkPRBrUvUGOMSIYYGFyD36zw49
+KCWmONymUhyCkQWo5cVAxFKVPn+r0+lU3aImaXgSYtA4jWiqU/I97mUctijNBvD3+h+ne4rkHWDe
+D5smtK/H3Sx0foJ5lSIgM1jlv08wr1IRvGPZNT60kJlYN+21bfYq3fm61ON0Rz82wNWCzc256Wmf
+38dcyuGDKGqwN9JhSPNRFPoxzP3vsMzCavx8fCG8m5tGoZ/diXU+lnbgRREW5fIYvnM0wd5oxO1i
+xOAtjHODUyr6zxgWm1IJLFDptHMQuRuxLxYXqHRaduIJj8P9t23b5wvv13bYlS/Ocyg9NgtJfDl7
+aqxWx7p0OivM+6FUoblg0yFkuHGW70mn8yqVeqNRplGSdzXBjkicV6lUqLgnGBPz3daQI7Fprteu
+orM0eJuF0wI8dN7m11H6Uz3NjJyvSyULnUqFoImI2tkXtZWpvZSS2MShtMeGE7bYpAphE38+sxAc
+SrTA+DE5BjChcT6WJjiU6jMXa0RYfGEYHGLEMM+hJLukhRbbH5v8cN7CoaC73sYaSN8XP1PpQg4r
+H2uvvg+RrlQUJTlkH7tmWf2Vhk35MG1hVO84E9Ubj+GqYgDYyOEk0KLAUQ82/W9hyXlqG4fTpgvL
+YvcoboJtHAotCcq4/fTHmziUnuzjhNJf2WATh9K2Pz4yyPpvsIlD0YzERybYxKEYvCjtWxSnMjZx
+KFpIDcchLDwWh29/j+yvcDgUpmKKys+hiYV0r+Ij3fwckkozxtL293Xv8PqVbhLY1OPbchg8y+zw
+9qcBS/X4xS2c/vbqm9dqSvWHCZVmsRDa4xBD5mcWmnPIBDpCuqqqH2bjUHrHZ4BwWQM/3B5LQwZP
+VRU+65teN6FSmCHlygSHKK9Lcoil71DRW9n1dXyCMLmnhIVgAyMO+kj6K2xWSMzn8sPhLB1OweJj
+zTvEJib8kNZKvFXiV6SQFkZWYh4LnRNG5/E0Rnec8MPuZp+yET2e75+XXeVf9s2kUkhrepo3JiZU
+mh9ZOMRDLWFDyz2t5KHDwMKNsRSRU/Ie0sjlcg5NTPlhduRQKUKK2Cv4X7gOXwZJ+mFu5FApKJF7
+WuejoYZVVZqDw/jLdxzI4SHHh4s0qGcwmsCb6J8AHc4PKRu+fzTgCx4X0Az8cFssneHQc+av89dU
+2sG/BUJPvw4XaXDDcjFJ8CYOFZmqH+bgEKFE7F0cfHfV5xQDP9xmIVJe+lurvkPuqD6cSl31mX7X
+OihRDVS6sS516eBNzgd83+/e6z0Qh1gn8d3lETVdq8uciDuYL4wcfjiSmAw2Y4kKHIlD72RpnY77
+GgOOky06OHpmXpj3JeqAQ3HoC7O0ToM9uQ6YK4wssbSH25JJVTYdQhMPpdIOw4k6YPgOyPYdclx0
+AXKpdGRn7ly+RE1HpWzIx6Gvy948ofdYUKjnREYLca55/6pv9+r9rm9u5FPpcp3qIlss7eFapDmd
+qiInh2M81ckDy5DTD8eyzOKn4t4hL4c+FegFklnk5XBsAvej08wcep2mW0VNZI2lPVxVtpuvj+dW
+6ahTpaJsFrlVuj+d5ufQ63SmVdRCAQv9loZWbZ1GfpUGWxoY2yJ7LO3htjQyn/YzlOBw8ZaGCopw
+6EvwPfxWRRkO99QqFuLQb2nY67QQh4u33sqjFIf70WmJjE9YuvVWGqTSIomLTm3eKpbj0D+GEd93
+00MxP+zgtt5stzRKWuh1atoq0i0UstC1iqY6pVso1cq5rTfDLQ2scrFm1X5LAxYWW2PXKtptaSCi
+l8vK5lsasLBgfbzsLY1yQPVY8PLWWxoIdiUX2HhLg8rjsv8Lw3ZLg65eNtLZ6pTyVeHHfZatIpa3
+9KUNW0Uk/OLFP9X3Fq0i4lzxtbXTqUKyIJi1igjkGJWElU7pqhrtm9GWRuneKYRNq6gVaAa4LQ3V
+0gZ5Ssc33JaGapeBS2JUGq5VZF8JLgusqlqScq2i3jM3VTfs4VxRTahYU70U5V1RKdyg7NbMUOP3
+LVSSBopF1d7bFajdwipIB7lCM3iHJirUqFQqar9MMAqV/dRLCSCSqm8QjeGm/7keTBYBRKq/P1S7
+vNjjVO4/NLj9IQxV4aobwutaRq1WIh3Q+txPOOH/j2UFrqEbSUdwGjtkT5Dwd7vXByc/QZg7IOD8
+lo/Ya/8rBANyb0tDpMrJMELNtIrJTNBunN6ivRVqONQbpwSaIuWj2kbpEqBWLWKhrRs6QFB5LaQw
+ZvU/9CMUtPB/wOEftvDrh6r4+uFH+PqhKr5++BH+Nxz+eQu/fqiErx9+hG8+VMXXDz/C/yaWfv1Q
+B18//AjffKgKPPjGKBPogcE+frgCD1EyP8mkJ8C2X+4M8Licsz8/rKvLz0ID//37D2gRPTZVNpIU
+AAAAAElFTkSuQmCC
+
+------=_Part_715647_1364817080.1710506632682--
+
+------=_Part_715646_15288484.1710506632682--
